@@ -1,0 +1,5 @@
+kubectl create namespace <insert-namespace-name-here>
+
+kubectl delete namespaces <insert-some-namespace-name>
+
+kubectl get namespaces
