@@ -3,3 +3,6 @@ kubectl create namespace <insert-namespace-name-here>
 kubectl delete namespaces <insert-some-namespace-name>
 
 kubectl get namespaces
+
+#To create from json which is host @ github
+kubectl apply -f https://raw.githubusercontent.com/bngopale/k8/master/namespace/namespace-dev.json
